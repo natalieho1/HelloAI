@@ -2,7 +2,7 @@
 A program in Java that prints "Hello World!!!!!!"
 
 # How to set up environment 
-* Download OpenJDK Java 17 with the dmg package.
+* Download OpenJDK Java 17 with the dmg package. I am using macOS. 
 * Double click on the application and click install.
 * You can double check that java and its compiler are installed by running this in your terminal
   ```java --version```
