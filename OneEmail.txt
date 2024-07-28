@@ -1,0 +1,53 @@
+
+Content-Type: boundary="ABCD"
+
+From: donnatong@yahoo.com 
+To: nh104@wellesley.edu 
+Subject: Email test 
+
+Hi Natalie, 
+
+I hope you are doing well. 
+
+This is a test email to simplify the email parser function.
+
+I hope it will work!!!!
+
+"ABCD"
+
+___________________________________________________
+
+Content-Type: boundary="EFG"
+
+
+From: donnatong@yahoo.com 
+To: nh104@wellesley.edu 
+Subject: Second Email test 
+
+Hello computer, 
+
+Please read this email. Pretty please. 
+
+Best, 
+Natalie 
+
+"EFG" 
+
+___________________________________________________
+Content-Type: boundary="HELLO"
+
+
+From: mrmarcusho@gmail.com
+To: nh104@wellesley.edu 
+Subject: PAIN 
+
+Dear Natalie, 
+
+I was watching a video about Jensen Huang. He said: 
+
+I wish you ample pain and suffering. When you want to build something great, it is difficult to do. 
+
+Love, 
+Natalie 
+
+"HELLO"
