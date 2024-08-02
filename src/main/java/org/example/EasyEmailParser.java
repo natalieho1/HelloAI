@@ -7,7 +7,6 @@
  */
 import java.io.*;
 import java.util.*;
-
 import jakarta.activation.DataHandler;
 import jakarta.mail.*;
 
