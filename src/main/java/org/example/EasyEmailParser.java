@@ -204,9 +204,13 @@ public class EasyEmailParser implements Part {
 
     private static void getContentFromMessage(StringBuilder sb, Message part) throws MessagingException, IOException {
         if (part.isMimeType("text/plain") || part.isMimeType("text/html")) {
+            String content = (String) part.getContent();
             System.out.println("Yes message is right type");
             Address[] from      = part.getFrom();
             Address[] recipient = part.getAllRecipients();
+            String cleanedContent = content.replace("\n", " ").replace("\r", " ").replace("\"", "\"\"");
+            sb.append("\"").append(cleanedContent).append("\"").append("\n");
+
             sb.append(Arrays.toString(from)).append(",").append(Arrays.toString(recipient)).append(",").append(part.getContent()).append("\n");
             //System.out.println("Getting content from message: " + sb);
         }
