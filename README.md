@@ -1,7 +1,7 @@
 # Hello AI 🌎
 
 
-<details><summary> Hello World </summary>
+# Hello World 
 
 # Week 1 
 A program in Java that prints "Hello World!!!!!!"
@@ -38,7 +38,7 @@ java HelloWorld
 
 </details>
 
-<details> <summary>Email Extractor</summary>
+# Email Extractor 
 
 # Week 2 
 A program in java that takes a mbox file of downloaded emails and retrieves information of who the email is from, who it is sent to, and the content of each email into a csv file. 
